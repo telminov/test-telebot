@@ -1,5 +1,7 @@
-import os
+#import os
 from flask import Flask
+
+
 app = Flask(__name__)
 
 
@@ -8,4 +10,4 @@ def index():
     return 'Hello!', 200
 
 
-app.run(host='0.0.0.0', port=int(os.getenv('PORT', 8000)))
+#app.run(host='0.0.0.0', port=int(os.getenv('PORT', 8000)))
